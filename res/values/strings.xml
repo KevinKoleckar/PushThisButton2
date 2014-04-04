@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PushThisButton</string>
+    <string name="score">no score yet</string>
+    <string name="Market">Market</string>
+    <string name="Currency">0</string>
+    <string name="reset">Reset</string>
+    <string name="buttonMarket">New Button $10</string>
+    <string name="help">Help</string>
+    
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/button_00_default"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@drawable/button_01_android"
+        android:maxLevel="2"
+        android:minLevel="2" /> 
+    <item
+        android:drawable="@drawable/button_02_eye"
+        android:maxLevel="3"
+        android:minLevel="3" />
+    <item
+        android:drawable="@drawable/button_02_eye1"
+        android:maxLevel="4"
+        android:minLevel="4" />
+    <item
+        android:drawable="@drawable/button_03_anvil"
+        android:maxLevel="5"
+        android:minLevel="5" />
+    <item
+        android:drawable="@drawable/button_04_bomb"
+        android:maxLevel="6"
+        android:minLevel="6" />
+    <item
+        android:drawable="@drawable/button_05_bubble"
+        android:maxLevel="7"
+        android:minLevel="7" />
+    <item
+        android:drawable="@drawable/button_06_fish"
+        android:maxLevel="8"
+        android:minLevel="8" />
+    <item
+        android:drawable="@drawable/button_07_flower"
+        android:maxLevel="9"
+        android:minLevel="9" />
+    <item
+        android:drawable="@drawable/button_08_knife"
+        android:maxLevel="10"
+        android:minLevel="10" />
+    <item
+        android:drawable="@drawable/button_09_knifehappy"
+        android:maxLevel="11"
+        android:minLevel="11" />
+    <item
+        android:drawable="@drawable/button_10_moon"
+        android:maxLevel="12"
+        android:minLevel="12" />
+    <item
+        android:drawable="@drawable/button_11_thunderbolt"
+        android:maxLevel="13"
+        android:minLevel="13" />
+</level-list>

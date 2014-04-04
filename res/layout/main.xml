@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:visibility="visible" >
+    
+
+    <!-- android:text="Button" -->
+
+    <TextView
+        android:id="@+id/ScoreTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/score" />
+
+    <TextView
+        android:id="@+id/CurrencyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ScoreTextView"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/Currency" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_00_default"
+        android:onClick="onButtonPressed" />
+
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14ffef57799a1c"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="TEST_EMULATOR, E40C5BE5E34B78264BBCA226E5D8A6B6" android:layout_centerHorizontal="true">
+    </com.google.ads.AdView>
+
+</RelativeLayout>
