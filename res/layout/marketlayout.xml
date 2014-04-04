@@ -18,6 +18,11 @@
         android:text="Medium Text"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/main" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
